@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="24/7 FITNESS ">
+    <meta name="keywords" content="fitness, gym, yoga, health">
+    <meta name="author" content="Rishika Murarka">
+    <meta name="robots" content="FOLLOW, INDEX">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Staatliches&display=swap" rel="stylesheet">
+
+
+    <title>24/7 FITNESS </title>
+
+    <style>
+
+        /* CSS Reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('background.png');
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navbar{
+            color: rgb(72, 208, 241);
+            background-color: white;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+
+        .navbar ul li{
+            float: left;
+            list-style: none;
+            padding: 12px;
+            margin: 3px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #l3{
+            float: right;
+        }
+
+        #l4{
+            float: right;
+        }
+
+        .left1{
+            display: inline-block;
+            margin: 12px;
+            padding: 10px;
+            position: absolute;
+            top: 91px;
+            left: 10px;
+            height: 80px;
+        }
+
+        .left1 img{
+            width: 50px;
+            position: absolute;
+            top: 1px;
+            background-color: white;
+            
+        }
+
+        .left2{
+            position: relative;
+            top: 7px;
+            left: 100px;
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    
+        .mid{
+            height: 70px;
+            display: block;
+            margin:  1px auto;
+            width: 64%;
+            position: relative;
+            bottom: 52px;
+        }
+
+        .mid ul li{
+            display: inline-block;
+            list-style: none;
+            padding: 3px 40px; 
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            font-weight: bold; 
+        
+        }
+    
+        .mid ul li a{
+            text-decoration : none;
+            color: black;
+        }
+        .mid ul li a:hover{
+            font-style: underline;
+            color: black;
+        }
+    
+
+         .right{
+            margin: 5px;
+            display: inline-block;
+            position: absolute;
+            margin: 12px;
+            padding: 10px;
+            top: 75px;
+            right: 10px;
+
+        }
+
+        .right input{
+            height: 35px;
+            width: 200px;
+            border-radius: 8px;
+        }
+
+        .form{
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 50px;
+            margin: 20px;
+            display: inline-block;
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+
+        .form input{
+            height: 37px;
+            width: 400px;
+            border-radius: 10px;
+        
+        }
+
+        #submit{
+            color: white;
+            background-color: black;
+        }
+
+    </style>
+
+    <link rel="stylesheet" href="project.css">
+</head>
+
+
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>123 MAIN COLLINS STREET </li>
+            <li>+91 (002) 922 1001</li>
+            <li id="l3">MON - SAT: 6am - 9pm</li>
+            <li id="l4">GET IN TOUCH </li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="left1" >
+            <img src="image1.png" alt="Error">
+        </div>
+
+        <div class="left2" >
+            24/7 FITNESS
+        </div>
+
+        <div class="mid">
+            <ul>
+                <li><a href="home.html" target="_blank">HOME</a></li>
+                <li><a href="about.html" target="_blank">ABOUT</a></li>
+                <li><a href="classes.html" target="_blank">CLASSES</a></li>
+                <li><a href="blogs.html" target="_blank">BLOGS</a></li>
+                <li><a href="events.html" target="_blank">EVENTS</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <input type="text" id="search" placeholder="Search">
+        </div>
+    </header>
+
+    <div class="form">
+        Join the best Fitness Center of New York now!
+        <br><br>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <input type="text" id="age" placeholder="Enter your age">
+        <br>
+        <input type="text" id="gender" placeholder="Enter your gender">
+        <br>
+        <input type="text" id="locality" placeholder="Enter your locality">
+        <br>
+        <input id="submit" type="submit" value="Submit Now">
+    </div>
+    
+</body>
+
+</html>
